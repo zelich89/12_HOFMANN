@@ -1,0 +1,178 @@
+.h1 {
+  font: bold 32px/48px Montserrat;
+  @include media-breakpoint-up(md) {
+    font: bold 32px/54px Montserrat;
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 64px/96px Montserrat;
+  }
+}
+
+.h2 {
+  font: bold 20px/28px Montserrat;
+  //white-space: nowrap;
+  @include media-breakpoint-up(md) {
+    font: bold 36px/50px Montserrat;
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 44px/58px Montserrat;
+  }
+}
+
+.h3 {
+  font: bold 16px/24px Montserrat;
+  @include media-breakpoint-up(md) {
+    font: bold 24px/36px Montserrat;
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 32px/48px Montserrat;
+  }
+}
+
+.h4 {
+  font: bold 16px/21px Montserrat;
+  @include media-breakpoint-up(md) {
+    font: bold 16px/21px Montserrat;
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 16px/21px Montserrat;
+  }
+}
+
+.h5 {
+  font: 16px/21px Montserrat;
+  white-space: nowrap;
+}
+
+.caption-1 {
+  font: bold 14px/17px "Source Sans Pro";
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font: bold 16px/21px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 24px/32px "Source Sans Pro";
+  }
+}
+
+.caption-2 {
+  font: 16px/24px "Source Sans Pro";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font: bold 16px/21px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 18px/27px "Source Sans Pro";
+  }
+}
+
+.caption-3 {
+  font: bold 16px/20px "Source Sans Pro";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font: bold 16px/24px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 18px/27px "Source Sans Pro";
+  }
+}
+
+.caption-4 {
+  font: bold 12px/19px "Source Sans Pro";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font: bold 16px/24px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 18px/27px "Source Sans Pro";
+  }
+}
+
+.caption-5 {
+  font: 13px/19px "Source Sans Pro";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font: 16px/24px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: 18px/27px "Source Sans Pro";
+  }
+}
+
+.text-size-1 {
+  font: 400 12px/18px "Source Sans Pro";
+  text-transform: initial;
+  @include media-breakpoint-up(md) {
+    font: 14px/21px "Source Sans Pro";
+  }
+  @include media-breakpoint-up(xl) {
+    font: 16px/24px "Source Sans Pro";
+  }
+}
+
+.text-size-2 {
+  font: 300 13px/20px "Source Sans Pro";
+  text-transform: initial;
+  @include media-breakpoint-up(xl) {
+    font: 16px/24px "Source Sans Pro";
+  }
+}
+
+.text-size-3 {
+  font: 11px/12px "Source Sans Pro";
+}
+
+.text-size-4 {
+  font: 14px/16px "Source Sans Pro";
+}
+
+.text-size-map {
+  font: 14px/14px "Source Sans Pro";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-nowrap-xl {
+  @include media-breakpoint-up(xl) {
+     white-space: nowrap;
+  }
+}
+
+.btn-price-text-size {
+  font: 300 16px/24px "Source Sans Pro";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.price {
+  font: 300 36px/36px Montserrat;
+  @include media-breakpoint-up(xl) {
+    font: 300 64px/64px Montserrat;
+  }
+}
+
+.hofman {
+  font: bold 24px/34px Montserrat;
+  letter-spacing: 2px;
+  color: $primary;
+  @include media-breakpoint-up(md) {
+    font: bold 32px/45px Montserrat;
+  }
+  @include media-breakpoint-up(xl) {
+    font: bold 36px/54px Montserrat;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}

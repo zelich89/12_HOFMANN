@@ -1,0 +1,47 @@
+.bg-gr {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-darker {
+  background-color: $darker;
+}
+
+.bg-danger {
+  background-color: $danger;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-transparent {
+background-color: transparent
+}
+
+.bg-pics {
+  background: url("https://i.imgur.com/Lk52Xwj.png") no-repeat center center/cover;
+}
+
+.bg-acc {
+  background: url("https://i.imgur.com/piEmTVU.jpg") no-repeat top center/cover;
+}
+
+.bg-map {
+  background: url("https://i.imgur.com/Cgxf5Rw.png") no-repeat top center/cover;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, .0001)
+}
